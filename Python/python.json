@@ -1,0 +1,54 @@
+{
+	"intinput": {
+		"prefix": "intinput",
+		"body": [
+			"int(input())",
+		],
+	},
+	"mapintinputsplit": {
+		"prefix": "mapintinputsplit",
+		"body": [
+			"map(int, input().split())",
+		],
+	},
+	"listmapintinputsplit": {
+		"prefix": "listmapintinputsplit",
+		"body": [
+			"list(map(int, input().split()))",
+		],
+	},
+	"listinputsplit": {
+		"prefix": "listinputsplit",
+		"body": [
+			"list(input().split())",
+		],
+	},
+	"listintinputfor": {
+		"prefix": "listintinputfor",
+		"body": [
+			"[int(input()) for _ in range($1)]",
+			"$0",
+		],
+	},
+	"hwintinput": {
+		"prefix": "hwintinput",
+		"body": [
+			"[list(map(int, input().split())) for _ in range(h)]",
+			"$0",
+		]
+	},
+	"hwinput": {
+		"prefix": "hwinput",
+		"body": [
+			"[list(input()) for _ in range(h)]",
+			"$0",
+		]
+	},
+	"hwinputsplit": {
+		"prefix": "hwinputsplit",
+		"body": [
+			"[list(input().split()) for _ in range(h)]",
+			"$0",
+		]
+	},
+}
