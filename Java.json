@@ -1,0 +1,16 @@
+{
+	"setup": {
+		"prefix": "setup",
+		"body": [
+			"import java.util.*;",
+			"",
+			"public class Main {",
+			"\tpublic static void main(String[] args) {",
+			"\t\tScanner sc = new Scanner(System.in);",
+			"\t\tint n = sc.nextInt();",
+			"\t\t$0",
+			"\t}",
+			"}",
+		]
+	},
+}
