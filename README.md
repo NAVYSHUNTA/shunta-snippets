@@ -1,2 +1,2 @@
-# Shunta-snippets
-主にAtCoderで用いるスニペット集です。
+# shunta-snippets
+主に AtCoder で用いるスニペット集です。
